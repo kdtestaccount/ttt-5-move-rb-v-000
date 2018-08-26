@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 
-input_to_index(value)
+def input_to_index(value)
   index = value - 1 
 end
 
