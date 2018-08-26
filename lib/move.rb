@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(value)
-  index = value - 1 
+  index = value.to_i - 1 
 end
 
 def update_array_at_with(array, index, value)
