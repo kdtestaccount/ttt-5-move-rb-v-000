@@ -11,3 +11,4 @@ end
 def input_to_index(position)
   index = position - 1
   board[index] = "X"
+end
