@@ -8,3 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 index = input_to_index(gets.strip)
 def update_array_at_with(board, index, "X")
+display_board
