@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 board = [" ", " ", " ", " ", " ", " ", " ", " "]
 
-def input_to_index(position)
+def update_array_at_with(array, index, value)
   index = position - 1
   board[index] = "X"
 end
